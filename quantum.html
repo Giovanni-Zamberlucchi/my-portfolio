@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="quantum.css" />
+        <title>Quantum | Portfolio | Giovanni</title>
+
+        <!-- bootstrap cdns -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+        <!-- bootstrap cdns -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <!-- for on scroll animations -->
+        <link rel="stylesheet" href="animate.css">
+        <script src="wow.min.js"></script>
+    </head>
+
+    <body>
+        <!--------------- navbar starts here --------------->
+        <div class="wrapper">   
+            <nav>
+                <span id="brand">
+                    <a href="index.html">giovanni</a>
+                </span>
+
+                <ul id="menu">
+                    <li><a href="index.html">accueil<span>.</span></a></li>
+                    <li><a href="projet.html">projets<span>.</span></a></li>
+                    <li><a href="apropos.html">a propos<span>.</span></a></li>
+                    <li><a href="contact.html">contact<span>.</span></a></li>
+                </ul>
+
+                <div id="toggle">
+                    <div class="span">menu</div>
+                </div>
+            </nav>
+        </div> 
+        <div id="resize">
+            <div class="close-btn">close</div>
+            <ul id="menu">
+                <li><a href="index.html">accueil<span>.</span></a></li>
+                <li><a href="projet.html">projets<span>.</span></a></li>
+                <li><a href="apropos.html">à propos<span>.</span></a></li>
+                <li><a href="contact.html">contact<span>.</span></a></li>
+            </ul>   
+        </div>
+
+        <!--------------- block starts here --------------->
+        <div class="container">
+            <div class="block block-0">
+                <h1 class="wow fadeInUp" data-wow-delay="2.5s">Quantum</h1>
+                <p  class="wow fadeInUp" data-wow-delay="2.6s"id="description"><br>description: Quantum Productions est une maison de production indépendante qui collabore<br> avec des marques et annonceurs sur leurs besoins en communication audiovisuelle.<br>Véritable collectif de professionnels spécialisés dans les domaines du digital,<br>nous imaginons et créons sans limites physiques ou techniques.</p>
+                <p class="wow fadeInUp" data-wow-delay="2.7s" id="start">commencé le: 27/08/2020 fini le: 03/09/2020</p>
+                <p  class="wow fadeInUp" data-wow-delay="2.8s"id="font">polices: <span> titre : paytone ne</span><span> texte : lora</span></p>
+                <p  class="wow fadeInUp" data-wow-delay="2.9s"id="color">couleurs: <span id="nuit">nuit #151529 </span><span id="gold">gold #CC9C6E</span></p>
+            </div>
+            <div class="block block-1">
+                <h1>logo</h1>
+            </div>
+            <div class="block block-2">
+                <h1>acceuil</h1>
+            </div>
+            <div class="block block-3">
+                <h1>overflow</h1>
+            </div>
+            <div class="block block-4">
+                <h1>vidéo</h1>
+            </div>
+            <div class="block block-5">
+                <h1>responsive</h1>
+            </div>
+        </div>
+        
+        <!--------------- script starts here --------------->
+        <script src="index.js"></script>
+        <script>
+            var blocks = document.getElementsByClassName("block");
+            var container = document.getElementsByClassName("container");
+            var hs = new HorizontalScroll.default({
+                blocks: blocks,
+                container: container,
+                isAnimated: true,
+                springEffect: 0.8,
+            });
+        </script>
+
+        <!-- greensock cdn -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/TextPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/EasePack.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
