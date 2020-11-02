@@ -183,6 +183,9 @@ nav #menu li a:hover {
 h1, p {
     position: absolute;
 }
+h1 a, h1 a:hover {
+    color: #FFF;
+}
 
 p a, p a:hover{
     color: #FFF;
@@ -233,6 +236,14 @@ p a, p a:hover{
     left: 0px;
 }
 
+#colab a:hover {
+    text-decoration: none;
+}
+
+#colab span:hover {
+    text-decoration: underline;
+}
+
 #description {
     top: 80px;
     left: 0px;
@@ -243,16 +254,20 @@ p a, p a:hover{
     left: 0px;
 }
 
-#font {
+#tech{
     top: 240px;
     left: 0px;
 }
 
-#color {
+#font {
     top: 270px;
     left: 0px;
 }
 
+#color {
+    top: 300px;
+    left: 0px;
+}
 
 #gold {
     color: #CC9C6E;
