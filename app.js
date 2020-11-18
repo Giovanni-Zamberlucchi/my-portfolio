@@ -20,8 +20,8 @@ gsap.from("#brand", {duration: 1, delay: 1, y: 10, opacity: 0, ease: Expo.easeIn
 gsap.from("#menu li a", {duration: 1, delay: 1, opacity: 0, ease: Expo.easeInOut, stagger: 0.3});
 
 // TYPEWRITING
-const words = ["is intelligence made visible.", "is thinking made visual.", "is so simple that's why is so complicated.",
-"is the silent ambassador of your brand.", "is not for philosophy, it's for life.", "is not just how it looks like & feels like...", "is how it works."];
+const words = ["is intelligence made visible.", "is not about typing. It's about thinking.", "is thinking made visual.", "is so simple that's why it's so complicated.",
+"is the silent ambassador of your brand.", "is not about what you kwow..."," is about what you can figure out." , "is not just how it looks like & feels like...", "is how it works.", "is not for philosophy, it's for life."];
 
 //cursor animation
 let cursor = gsap.to('.cursor', {opacity:0, ease:"power2.inOut", repeat:-1})
@@ -29,7 +29,7 @@ let cursor = gsap.to('.cursor', {opacity:0, ease:"power2.inOut", repeat:-1})
 //box
 let boxTL = gsap.timeline()
 //box underline
-boxTL.to('.box',{duration: 1, width:"11vw", delay:"1", ease: "power4.inOut"})
+boxTL.to('.box',{duration: 1, width:"17vw", delay:"1", ease: "power4.inOut"})
 //text appear
 .from('.hi', {duration: 1, y:"7vw", ease: "power3.out", onComplete: () => masterTL.play()})
 //box extend
